@@ -10,4 +10,9 @@ view: dummy_view {
     type: number
     sql: ${TABLE}.dep_delay ;;
   }
+
+  dimension: carrier {
+    type: number
+    sql: ${TABLE}.carrier ;;
+  }
 }
