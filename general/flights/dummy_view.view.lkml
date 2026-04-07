@@ -5,4 +5,9 @@ view: dummy_view {
     type: number
     sql: ${TABLE}.arr_delay ;;
   }
+
+  dimension: dep_delay {
+    type: number
+    sql: ${TABLE}.dep_delay ;;
+  }
 }
